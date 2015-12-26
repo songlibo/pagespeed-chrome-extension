@@ -1,0 +1,142 @@
+/* Copyright 2012 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+BODY {
+  direction: __MSG_@@bidi_dir__;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin: 32px;
+  padding: 0;
+}
+
+DIV#content {
+  max-width: 888px;
+  min-width: 600px;
+}
+
+H1 {
+  -webkit-user-select: none;
+  color: #53637D;
+  font-size: 26px;
+  font-weight: normal;
+  text-shadow: white 0 1px 2px;
+}
+
+H1 > IMG {
+  bottom: 3px;
+  position: relative;
+  vertical-align: middle;
+}
+
+INPUT[type=url] {
+  -webkit-border-radius: 2px;
+  border: 1px solid #aaa;
+  padding: 3px;
+}
+
+DIV.section {
+  -webkit-box-orient: horizontal;
+  border-top: 1px solid #eee;
+  display: -webkit-box;
+  margin-top: 17px;
+  padding-top: 12px;
+}
+
+DIV.section > H3 {
+  font-size: 105%;
+  font-weight: bold;
+  margin: 0;
+  vertical-align: middle;
+  width: 200px;
+}
+
+DIV.section > DIV:last-child {
+  -webkit-box-flex: 1;
+}
+
+DIV.checkbox {
+  margin: 5px 0;
+}
+
+DIV.textboxControl {
+  -webkit-box-orient: horizontal;
+  display: -webkit-box;
+}
+
+DIV.textboxControl > DIV:first-child {
+  margin: 5px;
+}
+
+DIV.textboxControl > DIV:last-child {
+  -webkit-box-flex: 1;
+  position: relative;
+}
+
+DIV.textboxControl > DIV:last-child > INPUT {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+DIV.settings-hd {
+  background-color: #F1F1F1;
+  border-bottom: 1px solid #CCC;
+  height: 71px;
+  padding-top: 26px;
+  padding-left: 42px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #222;
+}
+
+DIV.formbuttons {
+  float: right;
+  padding-right: 26px;
+  padding-top: 22px;
+  margin: 0;
+}
+
+.kd-button-submit {
+  border: 1px solid #505050;
+  color: white;
+  border-color: #3079ED;
+  background-color: #4D90FE;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#4D90FE),to(#4787ED));
+  background-image: -webkit-linear-gradient(top,#4D90FE,#4787ED); 
+  display: inline-block;
+  min-width: 54px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  height: 27px;
+  padding: 0 8px;
+  line-height: 27px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: all 0.218s;
+  text-decoration: none;
+  cursor: default;
+}
+.kd-formbuttons .kd-button.primary {
+  float: left;
+  margin-right: 16px;
+}
+
+.pagespeed-logo {
+  float: left;
+  padding-right: 16px;
+}
+
+
